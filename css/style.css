@@ -1,0 +1,233 @@
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    /* outline: 2px solid red; */
+    font-family: Arial;
+}
+.page-header {
+    background: #445161;
+    padding: 25px 50px 33px 50px;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-header-wrap {
+    max-width: 400px;
+    width: 100%;
+}
+
+.page-header-title {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 69px;
+
+}
+
+.page-header-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+
+.page-header-list-item {
+    padding: 0 0 0 20px;
+    position: relative;
+    margin: 0 0 10px 0;
+}
+
+.page-header-list-item:last-child {
+    margin: 0;
+}
+
+
+.page-header-list-item:before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 13px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../css/../img/checkbox.png');
+    background-size: cover;
+
+}
+
+.page-header-img {
+    display: block;
+    background-color: white;
+    width: 472px;
+    height: 217px;
+
+}
+
+.main-content {
+
+}
+
+.about-product {
+    padding: 45px 50px 50px 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about-product-wrap {
+    max-width: 646px;
+    width: 100%;
+
+}
+
+.about-product-title {
+    font-size: 30px;
+    line-height: 36px;
+    color: #445161;
+    margin: 0 0 15px 0;
+
+}
+
+.about-product-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin: 0 0 11px 0;
+
+}
+
+.about-product-text:last-child {
+    margin: 0;
+}
+
+/* Здесь будет видео, пока не изучали */
+.about-product-video {
+    display: block;
+    width: 430px;
+    height: 245px;
+    background: #445161;
+}
+
+
+.product-pluses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #F5F5F5;
+}
+
+.product-pluses-title {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    color: #445161;
+    margin: 25px 0 22px 0;
+}
+
+.product-pluses-list {
+    width: 600px;
+    list-style-type: none;
+    margin: 0 0 50px 0;
+}
+
+.product-pluses-list-items {
+    padding: 0 0 0 40px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 0 27px 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.product-pluses-list-items:last-child {
+    margin: 0;
+}
+
+
+.product-pluses-list-items:before {
+    content: "+";
+    color: white;
+    text-align: center;
+    line-height: 32px;
+    font-size: 30px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    background: #445161;
+    background-image: url('../css/../img/plus-1.png');
+    background-size: cover;
+}
+
+.screenshots {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+
+.screenshots-section-title {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    color: #445161;
+    margin: 25px 0 45px 0;
+}
+
+
+.screenshot-items {
+    width: 50%;
+    margin: 0 0 27px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.screenshot-items:nth-child(4),
+.screenshot-items:nth-child(5){
+  margin: 0 0 51px 0;
+}
+
+.screenshot-description {
+    margin: 0 0 0 14px;
+
+}
+
+.screenshot-image {
+    display: block;
+    width: 202px;
+    height: 160px;
+    background-color: #445161;
+
+}
+
+.screenshot-title { 
+    margin: 0 0 13px 0px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #445161;
+}
+
+.screenshot-text {
+    width: 95%;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
