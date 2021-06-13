@@ -59,6 +59,7 @@
     left: 0;
     background-image: url('../css/../img/checkbox.png');
     background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
@@ -131,18 +132,19 @@
     font-size: 30px;
     line-height: 36px;
     color: #445161;
-    margin: 25px 0 22px 0;
+    margin: 0 0 22px 0;
 }
 
 .product-pluses-list {
-    width: 590px;
+    width: 100%;
+    max-width: 569px;
     list-style-type: none;
-    margin: 0 0 0;
+    margin: 0;
     padding: 0;
 }
 
 .product-pluses-list-items {
-    padding: 0 0 0 40px;
+    padding: 0 0 0 42px;
     box-sizing: border-box;
     position: relative;
     margin: 0 0 27px 0;
@@ -157,14 +159,15 @@
 
 
 .product-pluses-list-items:before {
+    
     content: "+";
     color: white;
     text-align: center;
     line-height: 32px;
     font-size: 30px;
     display: block;
-    width: 32px;
-    height: 32px;
+    width: 34px;
+    height: 35px;
     position: absolute;
     top: 5px;
     left: 0;
@@ -180,9 +183,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
-    
-
 }
 
 .screenshots-section-title {
@@ -191,13 +191,14 @@
     font-size: 30px;
     line-height: 36px;
     color: #445161;
-    margin-bottom: 45px;
+    margin: 0 0 45px 0;
     box-sizing: border-box;
 }
 
 
 .screenshot-items {
-    width: 50%;
+    width: 100%;
+    max-width: 574px;
     margin: 0 0 27px 0;
     box-sizing: border-box;
     display: flex;
@@ -232,7 +233,7 @@
 }
 
 .screenshot-text {
-    width: 95%;
+    width: 100%;
     box-sizing: border-box;
     font-size: 16px;
     line-height: 24px;
