@@ -121,6 +121,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     background: #F5F5F5;
+    padding: 25px 50px 50px 50px;
+    box-sizing: border-box;
 }
 
 .product-pluses-title {
@@ -133,9 +135,10 @@
 }
 
 .product-pluses-list {
-    width: 600px;
+    width: 590px;
     list-style-type: none;
-    margin: 0 0 50px 0;
+    margin: 0 0 0;
+    padding: 0;
 }
 
 .product-pluses-list-items {
@@ -171,10 +174,13 @@
 }
 
 .screenshots {
+    padding: 25px 50px 50px 50px;
+    box-sizing: border-box;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
     
 
 }
@@ -185,7 +191,8 @@
     font-size: 30px;
     line-height: 36px;
     color: #445161;
-    margin: 25px 0 45px 0;
+    margin-bottom: 45px;
+    box-sizing: border-box;
 }
 
 
@@ -201,7 +208,7 @@
 
 .screenshot-items:nth-child(4),
 .screenshot-items:nth-child(5){
-  margin: 0 0 51px 0;
+  margin: 0;
 }
 
 .screenshot-description {
@@ -230,4 +237,81 @@
     font-size: 16px;
     line-height: 24px;
     color: #333333;
+    margin: 0;
+}
+
+.reviews {
+    background: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px 50px 50px 50px;
+
+}
+
+.reviews-title {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 25px 0 31px 0;
+    font-size: 30px;
+    line-height: 36px;
+    color: #445161;
+}
+
+.review-item {
+    width: 50%;
+    margin: 0 0 27px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.userpic {
+    width: 66px;
+    height: 60px;
+    background: #445161;
+    border-radius: 50%;
+
+
+}
+
+.review-text-item {
+    width: 95%;
+    background: #EBEBEB;
+    position: relative;
+    margin: 0 33px 0 15px;
+}
+
+.review-text-item::before {
+    content: "";
+    display: block;
+    border: 20px solid transparent; 
+    border-right: 20px solid #ebebe9;
+    position: absolute;
+    top: 25px;
+    left: -30px;
+}
+
+.review-text {
+    padding: 16px 10px 5px 15px;
+    margin: 0;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.review-link {
+    padding: 5px 0 5px 15px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #989898;
+    text-decoration: none;
+
 }
