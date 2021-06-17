@@ -4,6 +4,7 @@
     max-width: 1280px;
     margin: 0 auto;
     font-family: Arial;
+    font-weight: 400;
 }
 .page-header {
     background: #445161;
@@ -54,7 +55,7 @@
     content: "";
     display: block;
     width: 16px;
-    height: 13px;
+    height: 17px;
     position: absolute;
     top: 0;
     left: 0;
@@ -89,7 +90,7 @@
     font-size: 30px;
     line-height: 36px;
     color: #445161;
-    margin: 0 0 15px 0;
+    margin: 0 0 17px 0;
 
 }
 
@@ -105,7 +106,6 @@
     margin: 0;
 }
 
-/* Здесь будет видео, пока не изучали */
 .about-product-video {
     display: block;
     width: 430px;
@@ -164,9 +164,9 @@
     font-size: 30px;
     display: block;
     width: 34px;
-    height: 35px;
+    height: 32px;
     position: absolute;
-    top: 5px;
+    top: 8px;
     left: 0;
     background: #445161;
     background-image: url('../img/plus-1.png');
@@ -204,9 +204,6 @@
 }
 
 
-.screenshot-items:nth-child(4) {
-  /* margin: 0; */
-}
 
 .screenshot-description {
     margin: 0 0 0 14px;
@@ -226,6 +223,7 @@
     line-height: 30px;
     color: #445161;
 }
+
 
 .screenshot-text {
     width: 100%;
@@ -374,9 +372,6 @@
 
 }
 
-.price-list-item {
-
-}
 
 .price-button {
     display: block;
