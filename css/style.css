@@ -7,7 +7,7 @@
 }
 .page-header {
     background: #445161;
-    padding: 25px 50px 33px 50px;
+    padding: 25px 50px 19px 50px;
     box-sizing: border-box;
     color: #fff;
     display: flex;
@@ -15,7 +15,7 @@
 }
 
 .page-header-wrap {
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
 }
 
