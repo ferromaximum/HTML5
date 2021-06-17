@@ -3,7 +3,6 @@
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    /* outline: 2px solid red; */
     font-family: Arial;
 }
 .page-header {
@@ -42,6 +41,8 @@
     padding: 0 0 0 20px;
     position: relative;
     margin: 0 0 10px 0;
+    font-size: 20px;
+    line-height: 23px;
 }
 
 .page-header-list-item:last-child {
@@ -57,7 +58,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url('../css/../img/checkbox.png');
+    background-image: url('../img/checkbox.png');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -68,10 +69,6 @@
     background-color: white;
     width: 472px;
     height: 217px;
-
-}
-
-.main-content {
 
 }
 
@@ -172,7 +169,7 @@
     top: 5px;
     left: 0;
     background: #445161;
-    background-image: url('../css/../img/plus-1.png');
+    background-image: url('../img/plus-1.png');
     background-size: cover;
 }
 
@@ -207,14 +204,12 @@
 }
 
 
-.screenshot-items:nth-child(4),
-.screenshot-items:nth-child(5){
+.screenshot-items:nth-child(4) {
   /* margin: 0; */
 }
 
 .screenshot-description {
     margin: 0 0 0 14px;
-
 }
 
 .screenshot-image {
