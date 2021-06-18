@@ -174,7 +174,7 @@
 }
 
 .screenshots {
-    padding: 25px 50px 50px 50px;
+    padding: 25px 50px 23px 50px;
     box-sizing: border-box;
     width: 100%;
     display: flex;
@@ -247,7 +247,7 @@
     width: 100%;
     text-align: center;
     margin: 0;
-    padding: 25px 0 31px 0;
+    padding: 0 0 31px 0;
     font-size: 30px;
     line-height: 36px;
     color: #445161;
