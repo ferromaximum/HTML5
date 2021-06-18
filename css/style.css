@@ -1,4 +1,24 @@
 .header-content {
     width: 100%;
     max-width: 1920px;
+    min-height: 1024px;
+    background-image: url(../img/background-photo-header.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.header-top {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+
+}
+
+.menu-list {
+    display: flex;
 }
