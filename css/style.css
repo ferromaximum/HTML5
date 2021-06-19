@@ -1,24 +1,75 @@
+p {
+    font-family;
+    color: #ffffff;
+}
+
+
+
 .header-content {
+    margin: 0 auto;
     width: 100%;
     max-width: 1920px;
     min-height: 1024px;
     background-image: url(../img/background-photo-header.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+
     
 }
 
 .header-top {
     width: 100%;
-
+    margin: ;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    padding: 37px 0 0 377px;
 }
 
 .menu {
-
+    padding-right: 50px;
 }
 
 .menu-list {
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+}
+
+
+.menu-list-item {
+    list-style-type: none;
+    margin-right: 23px;
+}
+
+.menu-list-item:last-child {
+    margin-right: 0;
+}
+
+.menu-link {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.header-icon {
+
+}
+
+.site-name {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+    display: flex;
+    margin-right: 182px;
+}
+
+.logo-icon {
+    color: #ffffff;
 }
