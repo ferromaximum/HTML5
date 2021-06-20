@@ -55,7 +55,6 @@ p {
 }
 
 .header-icon {
-
 }
 
 .site-name {
@@ -67,9 +66,22 @@ p {
     letter-spacing: -0.04em;
     color: #ffffff;
     display: flex;
+    align-items: center;
     margin-right: 182px;
 }
 
 .logo-icon {
     color: #ffffff;
+}
+
+.card {
+    margin-left: 46px;
+    background: none;
+    border: 0;    
+}
+
+.search-icon {
+    margin-left: 18px;
+    background: none;
+    border: 0;
 }
