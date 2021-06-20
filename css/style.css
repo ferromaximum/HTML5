@@ -41,6 +41,7 @@ p {
     margin-right: 23px;
 }
 
+
 .menu-list-item:last-child {
     margin-right: 0;
 }
@@ -52,6 +53,14 @@ p {
     line-height: 1.2;
     font-weight: 300;
     color: #ffffff;
+}
+
+.menu-link:hover {
+    color: #c7b299;
+}
+
+.menu-link:active {
+    color: #c7b299;
 }
 
 .header-icon {
@@ -70,18 +79,53 @@ p {
     margin-right: 182px;
 }
 
+.site-name:hover {
+    color: #c7b299;
+}
+
+.site-name:active {
+    color: #c7b299;
+}
+
 .logo-icon {
-    color: #ffffff;
+    fill: #ffffff;
+}
+
+.logo-icon:hover {
+    fill: #c7b299;
+}
+
+.logo-icon:active {
+    fill: #c7b299;
 }
 
 .card {
     margin-left: 46px;
     background: none;
-    border: 0;    
+    border: 0;   
+    fill: #ffffff; 
 }
 
-.search-icon {
+.card:hover {
+    fill: #c7b299;
+}
+
+.card:active {
+    fill: #c7b299;
+}
+
+.search {
     margin-left: 18px;
     background: none;
     border: 0;
+    fill: #ffffff;
+}
+
+
+.search:hover {
+    fill: #c7b299;
+}
+
+.search:active {
+    fill: #c7b299;
 }
