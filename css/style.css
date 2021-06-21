@@ -112,24 +112,15 @@ p {
     margin-right: 182px;
 }
 
-.site-name:hover {
+.header-top:hover .site-name {
     color: #c7b299;
-}
-
-.site-name:active {
-    color: #c7b299;
-}
+  }
+  .header-top:hover .logo-icon {
+    fill: #c7b299;
+  }
 
 .logo-icon {
     fill: #ffffff;
-}
-
-.logo-icon:hover {
-    fill: #c7b299;
-}
-
-.logo-icon:active {
-    fill: #c7b299;
 }
 
 .card {
