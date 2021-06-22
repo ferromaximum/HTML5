@@ -382,6 +382,7 @@ p {
   }
   
   .servise-txt {
+    max-width: 276px;
     text-align: center;
     font-family: 'montserrat';
     font-size: 14px;
@@ -389,4 +390,5 @@ p {
     font-weight: 300;
     color: #8c8c8c;
     padding: 0 10px;
+    
   }
