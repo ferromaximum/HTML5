@@ -1,33 +1,32 @@
-
- @font-face {
+@font-face {
     font-family: 'raleway', 'sans-serif'; 
     src: url(../fonts/raleway-regular.ttf);
     font-weight: 400;
     font-style: normal;
    }
 
-   @font-face {
+@font-face {
     font-family: 'raleway', 'sans-serif'; 
     src: url(../fonts/raleway-medium.ttf);
     font-weight: 500;
     font-style: normal;
    }
 
-   @font-face {
+@font-face {
     font-family: 'raleway', 'sans-serif'; 
     src: url(../fonts/raleway-semibold.ttf);
     font-weight: 600;
     font-style: normal;
    }
 
-   @font-face {
+@font-face {
     font-family: 'raleway', 'sans-serif'; 
     src: url(../fonts/raleway-extrabold.ttf);
     font-weight: 800;
     font-style: normal;
    }
 
-   @font-face {
+@font-face {
     font-family: 'montserrat', 'sans-serif'; 
     src: url(../fonts/montserrat-light.ttf);
     font-weight: 300;
@@ -516,3 +515,208 @@ p {
     background-color: #ffffff;
     color: #998675;
   }
+
+.portfolio {
+  padding: 75px 0 75px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 1920px;
+}
+
+
+.portfolio-title {
+  margin: 0 0 16px 0;
+  width: 100%;
+  text-align: center;
+  font-family: 'raleway';
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 600;
+  color: #555555;
+  }
+
+.portfolio-txt {
+  margin: 0 0 35px 0;
+  width: 100%;
+  max-width: 763px;
+  text-align: center;
+  font-family: 'montserrat';
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #8c8c8c;
+  }
+
+.portfolio-btn-menu {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 39px;
+}
+
+.portfolio-btn {
+  background-color: rgba(17,17,17,0.0);
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding: 5px 30px 8px 25px;
+  text-decoration: none;
+  font-family: 'montserrat';
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 300;
+  color: #8c8c8c;
+  text-decoration: none;
+}
+
+.portfolio-btn:hover {
+  color: #ffffff;
+  background-color:#998675;
+}
+
+.portfolio-btn:active {
+  color: #ffffff;
+  background-color:#998675;
+}
+
+
+/* Карточки товаров */
+.portfolio-card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 300px 13px;
+}
+
+.portfolio-card {
+  max-width: 370px;
+  padding: 0 14px 41px 15px;
+  position: relative;
+}
+
+
+
+.portfolio-card-img {
+  margin: 0;
+}
+
+.portfolio-card:hover .portfolio-card-img  {
+  filter: brightness(20%);
+}
+
+
+.portfolio-card-wrap {
+  padding: 24px 0 14px 24px;
+  background-color: #fbfaf8;
+}
+
+.portfolio-card:hover .portfolio-card-wrap {
+  background-color: #362f2d;
+}
+
+.portfolio-card-wrap:before {
+  content: "";
+  border: 15px solid transparent;
+  border-bottom: 12px solid #fbfaf8;
+  position: absolute;
+  top: 212px;
+  left: 34px;
+}
+
+.portfolio-card:hover .portfolio-card-wrap:before {
+  background-color: #362f2d;
+}
+
+.portfolio-card-title {
+  width: 100%;
+  display: block;
+  max-width: 370px;
+  font-family: 'raleway';
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #c7b299;
+}
+
+.portfolio-card-txt {
+  width: 100%;
+  display: block;
+  font-family: 'montserrat';
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #d1d1d1;
+}
+
+.portfolio-card:hover .portfolio-card-title {
+  color: #d1d1d1;
+}
+
+.portfolio-card:hover .portfolio-card-txt {
+  color: #c7b299;
+}
+
+
+.portfolio-card-btn-link,
+.portfolio-card-btn-search {
+  width: 20px;
+  height: 20px;
+  display: none;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 29%;
+  left: 40%;
+  fill: #ffffff;
+}
+
+.portfolio-card-btn-search {
+  margin: 0 0 0 48px;
+}
+
+.portfolio-card-btn-search:hover {
+  fill: #c7b299;
+}
+
+.portfolio-card-btn-link:hover {
+  fill: #c7b299;
+}
+
+.portfolio-card:hover .portfolio-card-btn-link {
+  display: block;
+}
+
+.portfolio-card:hover .portfolio-card-btn-search {
+  display: block;
+}
+
+
+/* Кнопка под карточками товаров */
+.portfolio-load-btn {
+  width: 170px;
+  height: 50px;
+  background-color: #998675;
+  border-radius: 5px;
+  font-family: 'raleway';
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.portfolio-load-btn:hover {
+  color: #998675;
+  background-color:#ffffff;
+}
+
+.portfolio-load-btn:active {
+  color: #998675;
+  background-color:#ffffff;
+}
