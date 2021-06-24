@@ -599,6 +599,7 @@ p {
 
 
 .portfolio-card-img {
+  display: block;
   margin: 0;
 }
 
@@ -616,6 +617,8 @@ p {
   background-color: #362f2d;
 }
 
+
+
 .portfolio-card-wrap:before {
   content: "";
   border: 15px solid transparent;
@@ -626,7 +629,7 @@ p {
 }
 
 .portfolio-card:hover .portfolio-card-wrap:before {
-  background-color: #362f2d;
+  border-bottom: 12px solid #362f2d;
 }
 
 .portfolio-card-title {
