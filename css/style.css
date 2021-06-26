@@ -174,7 +174,7 @@
 }
 
 .screenshots {
-    padding: 25px 50px 50px 50px;
+    padding: 25px 50px 23px 50px;
     box-sizing: border-box;
     width: 100%;
     display: flex;
@@ -212,7 +212,7 @@
 .screenshot-image {
     display: block;
     width: 202px;
-    height: 160px;
+    height: 153px;
     background-color: #445161;
 
 }
@@ -227,6 +227,7 @@
 
 .screenshot-text {
     width: 100%;
+    min-width: 390px;
     box-sizing: border-box;
     font-size: 16px;
     line-height: 24px;
@@ -239,7 +240,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 25px 50px 50px 50px;
+    padding: 25px 50px 15px 62px;
 
 }
 
@@ -247,7 +248,7 @@
     width: 100%;
     text-align: center;
     margin: 0;
-    padding: 25px 0 31px 0;
+    padding: 0 0 31px 0;
     font-size: 30px;
     line-height: 36px;
     color: #445161;
@@ -334,9 +335,10 @@
     margin-left: 45px;
 }
 
-.price-card:first-child {
-    margin: 0;
+.price-card:nth-of-type(1) {
+    margin-left: 0;
 }
+
 
 .price-card-title {
     font-size: 24px;
@@ -366,7 +368,7 @@
     line-height: 24px;
     color: #FFFFFF; 
     list-style-position: inside;
-    padding: 5px 0 14px 17px;
+    padding: 8px 8px 16px 20px;
     margin: 0;
     box-sizing: border-box;
 
@@ -474,6 +476,7 @@ textarea[placeholder] {
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
+    text-decoration: none;
   }
 
   .footer-contacts-link::before {
@@ -491,19 +494,19 @@ textarea[placeholder] {
   }
 
   .footer-contacts-link:nth-of-type(1):before {
-    background-image: url('../css/../img/skype.png');
+    background-image: url('../img/skype.png');
   }
   
   .footer-contacts-link:nth-of-type(2):before {
-    background-image: url('../css/../img/icq.png');
+    background-image: url('../img/icq.png');
   }
   
   .footer-contacts-link:nth-of-type(3):before {
-    background-image: url('../css/../img/email.png');
+    background-image: url('../img/email.png');
   }
   
   .footer-contacts-link:nth-of-type(4):before {
-    background-image: url('../css/../img/phone.png');
+    background-image: url('../img/phone.png');
   }
 
   .footer-contacts-icons {
@@ -522,28 +525,28 @@ textarea[placeholder] {
 
 
   .footer-contacts-social:nth-of-type(1) {
-    background-image: url('../css/../img/twitter.png');
+    background-image: url('../img/twitter.png');
     background-size: cover;
     background-repeat: no-repeat;
   
   }
 
   .footer-contacts-social:nth-of-type(2) {
-    background-image: url('../css/../img/vk.png');
+    background-image: url('../img/vk.png');
     background-size: cover;
     background-repeat: no-repeat;
   
   }
 
   .footer-contacts-social:nth-of-type(3) {
-    background-image: url('../css/../img/google.png');
+    background-image: url('../img/google.png');
     background-size: cover;
     background-repeat: no-repeat;
   
   }
 
   .footer-contacts-social:nth-of-type(4) {
-    background-image: url('../css/../img/facebook.png');
+    background-image: url('../img/facebook.png');
     background-size: cover;
     background-repeat: no-repeat;
   
