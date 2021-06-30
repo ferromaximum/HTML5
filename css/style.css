@@ -42,6 +42,9 @@ p {
 }
 
 .header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 0 auto;
     width: 100%;
     max-width: 1920px;
@@ -53,11 +56,11 @@ p {
 }
 
 .header-top {
-    width: 100%;
-    margin-bottom: 276px;
-    display: flex;
-    justify-content: flex-start;
-    padding: 37px 0 0 377px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 37px 0 0 0;
 }
 
 .menu {
@@ -111,29 +114,31 @@ p {
     margin-right: 182px;
 }
 
-.header-top:hover .site-name {
-    color: #c7b299;
-  }
-.header-top:hover .logo-icon {
-    fill: #c7b299;
-  }
+
+.site-name:hover {
+  color: #c7b299;
+}
 
 .logo-icon {
     fill: #ffffff;
 }
 
-.card {
+.logo-icon:hover {
+  fill: #c7b299;
+}
+
+.cart {
     margin-left: 60px;
     background: none;
     border: 0;   
     fill: #ffffff; 
 }
 
-.card:hover {
+.cart:hover {
     fill: #c7b299;
 }
 
-.card:active {
+.cart:active {
     fill: #c7b299;
 }
 
@@ -157,7 +162,6 @@ p {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    margin-bottom: 333px;
 }
 
 .banner-content {
@@ -298,10 +302,12 @@ p {
 
 .pagination {
     margin: 0 auto;
+    margin-bottom: 50px;
     width: 100%;
     width: 96px;
     display: flex;
     justify-content: space-between;
+    
   }
   
   .pagination-item {
@@ -444,7 +450,7 @@ p {
   .img-left {
     display: block;
     top: 17%;
-    left: 18%;
+    right: 41%;
     z-index: 2;
     position: absolute;
   }
@@ -461,7 +467,7 @@ p {
 .cta {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 44px 0 50px 0;
     background-image: url(../img/background_cta.png);
     background-repeat: no-repeat;
@@ -470,7 +476,7 @@ p {
 }
 
 .cta-content {
-    padding: 0px 0 0 385px;
+   
 }
 
 .cta-title {
@@ -492,14 +498,12 @@ p {
 }
 
 .cta-btn {
-    margin: 0 auto;
     width: 170px;
     height: 50px;
     box-sizing: border-box;
     background-color: #998675;
     text-decoration: none;
     border-radius: 3px;
-    margin-left: 469px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -660,7 +664,6 @@ p {
 .portfolio-card:hover .portfolio-card-txt {
   color: #c7b299;
 }
-
 
 .portfolio-card-btn-link,
 .portfolio-card-btn-search {
