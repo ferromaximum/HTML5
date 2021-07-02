@@ -50,7 +50,6 @@ p {
     max-width: 1920px;
     min-height: 1024px;
     background-image: url(../img/background-photo-header.jpg);
-    background-size: 100%;
     background-repeat: no-repeat;
     margin-bottom: 81px;
 }
@@ -471,7 +470,6 @@ p {
     padding: 44px 0 50px 0;
     background-image: url(../img/background_cta.png);
     background-repeat: no-repeat;
-    background-size: 100%;
     
 }
 
