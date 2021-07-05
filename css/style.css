@@ -931,7 +931,7 @@ p {
   align-items: center;
   width: 100%;
   max-width: 1920px;
-  margin-bottom: 142px;
+  margin-bottom: 79px;
 }
 
 .blog-title {
@@ -985,68 +985,75 @@ p {
 
 .blog-post-title {
   padding-top: 20px;
-  width: 100%;
-  display: block;
-  max-width: 370px;
   font-family: 'raleway';
   font-size: 20px;
   line-height: 1.2;
   font-weight: 500;
-  color: #c7b299;
-
+  color: #555555;
 }
 
 .blog-post-txt {
   width: 100%;
   display: block;
   font-family: 'montserrat';
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 28px;
   font-weight: 300;
-  color: #d1d1d1;
+  color: #8c8c8c;
   margin: 15px 0 23px 0;
-  
 }
 
 .blog-link {
   margin-bottom: 10px;
   text-decoration: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #c7b299;
 }
 
 .post-date {
   position: absolute;
-  top: 10%;
-  left: 10%;
+  top: 5%;
+  left: 5%;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 30px;
   width: 100%;
+  background-color: #363636;
+  border-radius: 3px;
+  
 
 }
 
 .numb {
-  background-color: bisque;
   max-width: 30px;
   width: 100%;
   text-align: center;
-  font-family: 'montserrat';
+  font-family: "montserrat";
   font-size: 24px;
   line-height: 20px;
   font-weight: 300;
-  color:white;
+  color: #ffffff;
 }
 
 .month {
-  background-color: bisque;
   max-width: 30px;
   width: 100%;
   text-align: center;
   color:white;
+  font-family: "roboto";
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #ffffff;
 }
 
 .logo {
-  background-color: rgb(58, 55, 55);
+  background-image: url(../img/bg_photo_11122.png);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1062,10 +1069,29 @@ p {
   margin: 0;
 }
 
+.btn-wrap {
+  display: flex;
+  margin: 25px 0 0 0;;
+}
+
+.blog-btn-l {
+  border: none; 
+  outline: none; 
+  background: none;
+}
+
+.blog-btn-r {
+  border: none; 
+  outline: none; 
+  background: none;
+}
+
+.blog-btn-icon {
+  fill: #c7b299;
+}
 
 .site-footer {
   margin: 0 auto;
-  padding: 76px 0 0 0;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -1077,15 +1103,16 @@ p {
 }
 
 .big-footer {
-  background-color: rgb(60, 52, 52);
+  background-color: #191919;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
+  padding: 79px 0 0 0;
 }
 
 .footer-art {
-  max-width: 400px;
+  max-width: 300px;
 }
 
 .recent {
@@ -1094,6 +1121,14 @@ p {
 
 .footer-art-link {
   max-width: 200px;
+}
+
+.footer-art-txt {
+  font-family: 'montserrat';
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #555555;
 }
 
 .twit {
