@@ -1111,34 +1111,80 @@ p {
   padding: 79px 0 0 0;
 }
 
+
 .footer-art {
-  max-width: 300px;
-}
-
-.recent {
   max-width: 200px;
+  margin-left: 30px;
+  font-family: 'montserrat';
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #d1d1d1;
 }
 
-.footer-art-link {
-  max-width: 200px;
-}
-
-.footer-art-txt {
+/* .footer-txt {
   font-family: 'montserrat';
   font-size: 14px;
   line-height: 24px;
   font-weight: 300;
   color: #555555;
-}
+  margin: 0;
+} */
 
-.twit {
-  max-width: 200px;
-}
 
 .link   {
   text-decoration: none;
   color: white;
   margin: 0;
+}
+
+
+
+.site-name-ftr {
+  text-decoration: none;
+  font-family: 'raleway';
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+
+.site-name-ftr:hover {
+  color: #c7b299;
+}
+
+
+.recent {
+  max-width: 330px;
+  margin-left: 30px;
+}
+
+.recent-title {
+  width: 100%;
+  font-family: 'raleway';
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+
+.twit {
+  max-width: 330px;
+  margin-left: 30px;
+}
+
+.twit-title {
+  width: 100%;
+  font-family: 'raleway';
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 
@@ -1150,7 +1196,25 @@ p {
   flex-direction: column;
 }
 
-.wiget-title {
-  width: 100%;
+.widget {
+  max-width: 330px;
+  margin-left: 30px;
 }
 
+.wiget-title {
+  width: 100%;
+  font-family: 'raleway';
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+
+.date {
+  font-family: Montserrat;
+font-size: 12px;
+line-height: 20px;
+font-weight: 300;
+color: #555353;
+}
