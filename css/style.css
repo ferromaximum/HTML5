@@ -1108,12 +1108,12 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  padding: 79px 0 0 0;
+  padding: 79px 0 60px 0;
 }
 
 
 .footer-art {
-  max-width: 200px;
+  max-width: 277px;
   margin-left: 30px;
   font-family: 'montserrat';
   font-size: 14px;
@@ -1122,14 +1122,14 @@ p {
   color: #d1d1d1;
 }
 
-/* .footer-txt {
+.footer-txt {
   font-family: 'montserrat';
   font-size: 14px;
   line-height: 24px;
   font-weight: 300;
   color: #555555;
-  margin: 0;
-} */
+  margin: 0 0 30px 0;
+}
 
 
 .link   {
@@ -1150,6 +1150,7 @@ p {
   color: #ffffff;
   display: flex;
   align-items: center;
+  margin-bottom: 17px;
 }
 
 
@@ -1213,8 +1214,45 @@ p {
 
 .date {
   font-family: Montserrat;
-font-size: 12px;
-line-height: 20px;
-font-weight: 300;
-color: #555353;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #363636;
+}
+
+.small-footer {
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #111111;
+}
+
+.footer-list {
+  display: flex;
+}
+
+.own {
+  display: flex;
+}
+
+.footer-list-item, .own-item {
+  color: #5c5c5c;
+  list-style-type: none;
+  font-family: 'ontserrat';
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 300;
+  margin-left: 18px;
+}
+
+
+
+.footer-list :first-child {
+  margin: 0;
+}
+
+.own :first-child {
+  margin: 0;
 }
