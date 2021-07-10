@@ -40,6 +40,13 @@
     font-style: normal;
    }
 
+
+
+body {
+  margin: 0;
+}
+
+
 h3,h4 {
     font-family: 'raleway';
 }
@@ -317,6 +324,7 @@ p {
     width: 96px;
     display: flex;
     justify-content: space-between;
+
     
   }
   
@@ -326,7 +334,7 @@ p {
     height: 6px;
     background-color: #ccc;
     border-radius: 50%;
-    border: 2px solid transparent;
+    border: 3px solid #ccc;
   }
   
   .pagination-item:hover {
@@ -573,7 +581,7 @@ p {
   border: 1px solid #ebebeb;
   border-radius: 3px;
   box-sizing: border-box;
-  padding: 5px 30px 8px 25px;
+  padding: 6px 30px 6px 25px;
   text-decoration: none;
   font-family: 'montserrat';
   font-size: 14px;
@@ -600,7 +608,7 @@ p {
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-  margin: 0 300px 13px;
+  margin: 0 150px 13px;
 }
 
 .portfolio-card {
@@ -1270,10 +1278,13 @@ p {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    flex-direction: column-reverse;
   }
 
   .site-name {
+    margin: 0;
     padding-left: 20px;
+    width: 90%;
   }
 
   .menu {
@@ -1292,7 +1303,6 @@ p {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    /* border: 1px solid black; */
   }
   
   .menu-btn:hover span,
@@ -1335,7 +1345,7 @@ p {
   }
 
   .menu {
-    width: 30%;
+    width: 84%;
     height: 0;
   }
   .menu-btn {
@@ -1382,7 +1392,8 @@ p {
 
   }
 
-  .servise {
+  .servise-item {
+    margin-bottom: 40px;
 
   }
 
@@ -1408,6 +1419,22 @@ p {
 
   .portfolio {
     
+  }
+
+  .portfolio-card-img {
+    width: 300px;
+    height: auto;
+  }
+
+
+  .blog-post {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+  .blog-post-img {
+    width: 320px;
+    height: auto;
   }
 
   .logo {
